@@ -1,0 +1,14 @@
+.page-container {
+  background-image: url(../../../assets/images/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 40px;
+
+  @media (max-width: 500px) {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    height: 100%;
+    padding-top: 14px;
+  }
+}
